@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(127deg, rgba(0, 143, 0, 0.916), rgb(8, 59, 0));
+    height: 75px;
+}
+.header_title {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+}
+.form_add {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add_button {
+    margin-left: 15px;
+    height: 42px;
+    width: 50px;
+    background-color: aliceblue;
+    transition: background-color 0.5s;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #188801 0%, #004300 51%, #006a07 100%);
+}
+.add_button:hover {
+    background-position: right center;
+}
+.del_button {
+    margin-left: 15px;
+    height: 64px;
+    width: 100px;
+}
+.title_main {
+    width: 230px;
+    height: 30px;
+    padding-left: 5px;
+    font-size: 14px;
+    border-radius: 6px;
+    line-height: 1.5;
+    padding: 5px 10px;
+    border: 2px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;
+    display: block;
+    transition: border-color 0.5s;
+    transition: background-color 0.5s;
+}
+.title_main:hover {
+    border-color: #ccc;
+}              
+.title_main:focus {
+    border-color: #9147ff;
+    background-color: #fff;
+}
+.things_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.things_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+    margin: 7px;
+    box-shadow: 0px 0px 10px 3px rgba(84, 84, 84, 0.279);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    list-style-type: none;
+    padding-left: 10px;
+}
+.thrash_but{
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: silver;
+    transition: background-color 0.5s;
+}
+.thrash_but:hover{
+    background-color: red;
+    cursor: pointer;
+}
